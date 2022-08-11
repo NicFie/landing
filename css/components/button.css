@@ -1,0 +1,16 @@
+.btn-hero {
+  color: black;
+  background-color: rgb(106,213,139);
+  padding: 15px 40px;
+  border-radius: 25px;
+  border: 1px rgb(0 0 0 / 80%) solid;
+  box-shadow: 2px 2px 10px black;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.btn-hero:hover {
+  background-color: white;
+  border: 1px black solid;
+  transform: scale(1.1);
+}

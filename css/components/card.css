@@ -1,0 +1,14 @@
+.card {
+  width: 25%;
+  box-shadow: 2px 2px 10px black;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgb(145, 187, 222);
+}
+
+.card img {
+  width: 150px;
+  border-radius: 5px;
+}

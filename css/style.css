@@ -1,0 +1,50 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url("components/hero.css");
+
+@import url("components/button.css");
+
+@import url("components/card.css");
+
+@import url("components/footer.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: rgb(186, 222, 254);
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.how-it-works-container {
+  width: 80%;
+  background-color: rgb(230, 245, 252);
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
